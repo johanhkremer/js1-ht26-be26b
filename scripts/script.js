@@ -77,8 +77,9 @@ const students = [
 
 
 {
-    //var är inte block-scope
+    //var har inte block-scope
     var x = 3
+    //const & let har block-scope
     const y = 12
 
     x = 7
@@ -88,3 +89,39 @@ const y = 15
 
 console.log("🔥 var:", x)
 console.log("🌊 const:", y)
+
+// 🏗️ Hositing
+
+console.log("🏗️ var", z)
+
+var z = 10
+
+console.log("💥 var", z)
+
+// Räkna med javascript
+
+console.log("-- Räkna matte med JS --")
+
+const a = 10
+const b = 3
+
+console.log("Addition:", a + b)
+console.log("Subtraktion:", a - b)
+
+//konkatenering
+console.log("5" + "5")
+
+console.log(5 + "5")
+
+console.log(5 - "3")
+
+console.log(5 - "tre")
+
+console.log(a - 5)
+
+//Logiska operatorer
+// ==, ===, <, >, <=, >=, ||, &&
+console.log("-- Logiska operatorer --")
+console.log(1 + 1 === "2")
+console.log("1 == true:", 1 == true)
+console.log("1 === true:", 1 === true)
