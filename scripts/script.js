@@ -123,10 +123,3 @@ console.log(a - 5)
 
 const decimalTal = 1.48
 console.log("⭐️ Decimaltal", Math.round(decimalTal))
-
-//Logiska operatorer
-// ==, ===, <, >, <=, >=, ||, &&
-console.log("-- Logiska operatorer --")
-console.log(1 + 1 === "2")
-console.log("1 == true:", 1 == true)
-console.log("1 === true:", 1 === true)
