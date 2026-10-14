@@ -35,7 +35,7 @@ console.log("books är typen:", typeof books)
 
 console.log("student:", student)
 
-student = {
+const studentObject = {
     name: "Stina",
     age: 25,
     course: "Javascript 1",
@@ -46,7 +46,7 @@ console.log("student:", student)
 
 const studentsArray = ["johan", "stina", "ann", "mohammed"]
 
-console.log(studentsArray[0])
+console.log("Student array:", studentsArray[1])
 
 const students = [
     {
@@ -113,11 +113,16 @@ console.log("'5' + '5' =", "5" + "5")
 
 console.log("5 + '5' =", 5 + "5")
 
+console.log("fem + fem =", "fem" + "fem")
+
 console.log("5 - '3' =", 5 - "3")
 
 console.log("5 - 'tre' =", 5 - "tre")
 
 console.log(a - 5)
+
+const decimalTal = 1.48
+console.log("⭐️ Decimaltal", Math.round(decimalTal))
 
 //Logiska operatorer
 // ==, ===, <, >, <=, >=, ||, &&
