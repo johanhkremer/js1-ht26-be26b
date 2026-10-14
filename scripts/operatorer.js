@@ -33,14 +33,6 @@ document.all	Object	    The only falsy object in JavaScript is the built-in docu
 All values are truthy except false values.
 */
 
-//Truthy & falsy examples
-
-/* 
-Program = ett komplett system med tydlig struktur, ofta större och mer självständigt.
-
-Script = en mindre kodfil som körs för att göra något specifikt.
-*/
-
 //* If/else satser
 
 
