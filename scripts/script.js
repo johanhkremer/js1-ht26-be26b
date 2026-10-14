@@ -109,13 +109,13 @@ console.log("Addition:", a + b)
 console.log("Subtraktion:", a - b)
 
 //konkatenering
-console.log("5" + "5")
+console.log("'5' + '5' =", "5" + "5")
 
-console.log(5 + "5")
+console.log("5 + '5' =", 5 + "5")
 
-console.log(5 - "3")
+console.log("5 - '3' =", 5 - "3")
 
-console.log(5 - "tre")
+console.log("5 - 'tre' =", 5 - "tre")
 
 console.log(a - 5)
 
